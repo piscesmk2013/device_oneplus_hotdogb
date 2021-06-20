@@ -42,7 +42,10 @@ PRODUCT_PACKAGES += \
     OnePlus7TWifiOverlay
 
 PRODUCT_PROPERTY_OVERRIDES  += \
-    vendor.product.device=hotdogb
+    vendor.product.device=hotdogb \
+    ro.product.product.model=HD1900 \
+    ro.product.system.model=HD1900 \
+    ro.build.product=OnePlus7T
 
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_SHIPPING_API_LEVEL := 29
