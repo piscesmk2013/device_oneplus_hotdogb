@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2015-2016 The CyanogenMod Project
-                   2017-2018 The LineageOS Project
-                   2022 The PixelExperience OS
+     Copyright (C) 2020 The LineageOS Project
+     Copyright (C) 2021 The PixelExperience Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,9 +16,6 @@
      limitations under the License.
 -->
 <resources>
-
-    <!-- OnePlus uses a proprietary vibrator hal to utilize the new powerful motor since the
-         OnePlus 7 Pro. This HAL expects a different format for the data instead of the usual (ms)
-         timing(the duration which the vibrator is expected to vibrate for). -->
-    <bool name="config_hasOnePlusHapticMotor">true</bool>
+    <!-- The bottom margin of the keyguard security container -->
+    <dimen name="kg_security_container_min_bottom_margin">418px</dimen>
 </resources>
